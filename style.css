@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(49, 37, 37);
+    margin:0;
+    color:white;
+    min-height: 100vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    background-color: blue;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto ;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center; 
+}
+.title{
+    margin: 0;
+    text-align: center;
+}
+lable{
+    font-weight: bold;
+}
+.characterAmountContainer{
+    display: flex;
+    align-items: center;
+
+}
+#characterAmountNumber{
+    width: 2rem;
+}
+.passwordDisplay{
+    background-color: blanchedalmond;
+    color: black;
+    padding: 1rem;
+    border: 1px solid black;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 0.5rem;
+
+}
+.spanButton{
+    display: grid;
+    background-color: transparent;
+    grid-column:span 2 ;
+    height :2rem;
+    color : white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding : 0.5rem 1rem;
+    font-weight: bold;
+    cursor :pointer;  
+}
+.spanButton:hover{
+    background-color:lightgreen;
+}
