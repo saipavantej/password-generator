@@ -1,48 +1,54 @@
-body{
+body {
     background-color: rgb(49, 37, 37);
-    margin:0;
-    color:white;
-    min-height: 100vh; 
-    display:flex;
+    margin: 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.container{
+.container {
     background-color: blue;
     padding: 3rem;
     border-radius: 1rem;
     border: 2px solid black;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
-.form{
+
+.form {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     row-gap: 1rem;
     column-gap: 3rem;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-.title{
+
+.title {
     margin: 0;
     text-align: center;
 }
-lable{
+
+lable {
     font-weight: bold;
 }
-.characterAmountContainer{
+
+.characterAmountContainer {
     display: flex;
     align-items: center;
 
 }
-#characterAmountNumber{
+
+#characterAmountNumber {
     width: 2rem;
 }
-.passwordDisplay{
+
+.passwordDisplay {
     background-color: blanchedalmond;
     color: black;
     padding: 1rem;
@@ -56,18 +62,20 @@ lable{
     border-radius: 0.5rem;
 
 }
-.spanButton{
+
+.spanButton {
     display: grid;
     background-color: transparent;
-    grid-column:span 2 ;
-    height :2rem;
-    color : white;
+    grid-column: span 2;
+    height: 2rem;
+    color: white;
     border: 1px solid white;
     border-radius: 0.5rem;
-    padding : 0.5rem 1rem;
+    padding: 0.5rem 1rem;
     font-weight: bold;
-    cursor :pointer;  
+    cursor: pointer;
 }
-.spanButton:hover{
-    background-color:lightgreen;
+
+.spanButton:hover {
+    background-color: lightgreen;
 }
