@@ -8,5 +8,7 @@
 ### core concept used 
 
 > using CharCode table 
+
 > ![CharCode Table](https://github.com/saipavantej/password-generator/blob/master/resources/CharacterTable.jpeg)
+
 > String.fromCharCode(65) ---------> A
