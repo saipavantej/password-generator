@@ -10,3 +10,7 @@
  #### Using CharCode Table 
 ![CharCode Table](https://github.com/saipavantej/password-generator/blob/master/resources/CharacterTable.jpeg)
 > * String.fromCharCode(65) ---------> A
+
+### Online Demo
+
+You can try the online demo of this project [here]( https://saipavantej.github.io/password-generator/).
