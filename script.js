@@ -50,7 +50,7 @@ function arrarFromLowToHigh(low, high) {
 }
 
 function syncCharacterAmount(e) {
-    const value = e.target.value
+    const value = e.target.value;
     characterAmountRange.value = value;
     characterAmountNumber.value = value;
 }
