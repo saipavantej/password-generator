@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(49, 37, 37);
+    background-color: #39375B;
     margin: 0;
-    color: white;
+    color: #39375B;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-    background-color: blue;
+    background-color:#d597ce;
     padding: 3rem;
     border-radius: 1rem;
-    border: 2px solid black;
+    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .title {
-    margin: 0;
+    margin: 0px;
     text-align: center;
 }
 
@@ -49,10 +49,10 @@ lable {
 }
 
 .passwordDisplay {
-    background-color: blanchedalmond;
-    color: black;
+    background-color: #F1F1F6;
+    color: #39375B;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
     height: 2rem;
     width: 350px;
     display: flex;
@@ -68,8 +68,8 @@ lable {
     background-color: transparent;
     grid-column: span 2;
     height: 2rem;
-    color: white;
-    border: 1px solid white;
+    color: #39375B;
+    border: 1.5px solid white;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     font-weight: bold;
